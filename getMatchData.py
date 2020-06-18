@@ -8,7 +8,7 @@ import numpy as np
 import random, arrow, csv, time, pdb
 import datetime
 
-my_api_key = "RGAPI-ab78bfa8-2586-41b6-9a7a-cdf190938a67"
+my_api_key = "Your api"
 queueType = Queue.ranked_solo_fives
 patch_ver = "9.19"
 matchdata_num_of_each_region = 40000
