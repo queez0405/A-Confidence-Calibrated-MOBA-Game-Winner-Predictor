@@ -16,20 +16,20 @@ Proceeding at Conference on Games(CoG) 2020.
 
 ### Collecting match data
 1. Register your project and get riot API key at [Riot Developer Portal](https://developer.riotgames.com/docs/portal)
-2. Choose your patch version, region, and tier to collect match data and modify 'getMatchData.py'. 
-3. Run 'getMatchData.py'.
+2. Choose your patch version, region, and tier to collect match data and modify `getMatchData.py`. 
+3. Run `getMatchData.py`.
 4. Collecting data may need few days(can be week!) because 
 
 ### Training Neural Network
 1. Move csv files to './LOLData'.
 2. To train plain network:
-'''bash
+```bash
 python main.py --embed_type='one_hot' --in_game=True --uncertainty='None'
-'''
+```
 To train Data Uncertainy loss function:
-'''bash
+```bash
 python main.py --embed_type='one_hot' --in_game=True --uncertainty='Data'
-'''
+```
 
 ### Result
 ![Experiment Result](./rel_diag.PNG)
