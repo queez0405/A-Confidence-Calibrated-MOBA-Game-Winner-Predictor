@@ -1,6 +1,6 @@
-# A Confidence Calibrated MOBA Game Winner Predictor
+# A Confidence-Calibrated MOBA Game Winner Predictor
 
-This is offcial pytorch implemenation of "A Confidence Calibrated MOBA Game Winner Predictor".
+This is offcial pytorch implemenation of "A Confidence-Calibrated MOBA Game Winner Predictor".
 
 Proceeding at Conference on Games(CoG) 2020.
 
