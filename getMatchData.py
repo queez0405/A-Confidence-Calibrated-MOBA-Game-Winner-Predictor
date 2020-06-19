@@ -8,7 +8,7 @@ import numpy as np
 import random, arrow, csv, time, pdb
 import datetime
 
-my_api_key = "Your api"
+my_api_key = "Your API Key"
 queueType = Queue.ranked_solo_fives
 patch_ver = "9.19"
 matchdata_num_of_each_region = 40000
@@ -109,9 +109,7 @@ def collect_gosu_matches(players_id):
             with open("./LOLData/matchIDs"+patch_ver+".csv","a", newline="") as csvfile:
                 csvwriter = csv.writer(csvfile)
                 csvwriter.writerow(match_ids)
-
-                # The above lines will trigger the match to load its data by iterating over all the participants.
-                # If you have a database in your datapipeline, the match will automatically be stored in it.            
+           
     return match_ids_dict
 
 def collect_champ_comp(matches_id, seperation):
